@@ -9,8 +9,11 @@ import About from "./components/About/About";
 import Detail from './components/Detail/Detail';
 import Forms from "./components/Form/Form";
 import Favorites from "./components/Favorites/Favorites";
+axios.defaults.baseURL = 'http://localhost:3001/';
 const EMAIL = 'hornmacarena12@hotmail.com';
 const PASSWORD = 'asd123';
+
+
 
 
 function App() {
